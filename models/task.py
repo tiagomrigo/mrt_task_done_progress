@@ -14,3 +14,6 @@ class Task(models.Model):
             if obj.kanban_state == 'done':
                 #set progress 100%
                 obj.write({'progress': 100})
+            else:
+                #set progress 0%
+                obj.write({'progress': 0})
