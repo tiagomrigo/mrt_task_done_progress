@@ -11,7 +11,7 @@
     'depends': ['base','project', 'hr_timesheet'],
     'data': [
     ],
-    'images':['static/description/task_list.png'],
+    'images':['static/description/task_list_cover.png'],
     'installable': True,
     'auto_install': False,
     'application': False,
