@@ -1,1 +1,1 @@
-from mrt_task_done_progress.mrt_task_done_progress import models
+from . import models
